@@ -1,0 +1,34 @@
+/* Notification default full panel style */
+.notification.full-panel {
+  /* existing styles for the full notification panel */
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+.notification.full-panel h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+/* ...other styles for notification content... */
+
+/* Compact notification banner style */
+.notification.compact {
+  /* Compact style: smaller padding, maybe a border, and inline-block or full width banner */
+  background-color: #eef6ff;         /* light highlighted background */
+  color: #333;                      /* text color */
+  padding: 8px 12px;                /* smaller padding */
+  margin: 10px 0;                   /* some margin around */
+  border: 1px solid #aacbe8;        /* light border */
+  border-radius: 4px;
+  text-align: center;               /* center the text */
+  /* If you want it as full-width banner, use width: 100%; 
+     or as a small box, use display: inline-block to fit content */
+  width: 100%;
+  display: block;
+}
+.notification.compact p {
+  margin: 0;  /* ensure no extra margin on the single line text */
+  font-size: 0.9rem;
+}
